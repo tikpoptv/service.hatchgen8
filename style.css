@@ -87,26 +87,23 @@ input[type=password] {
     font-size: large;
 }
 
-/* .separator {
-  display: flex;
-  align-items: center;
-  text-align: center;
+.textWithHoriLine {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.separator::before,
-.separator::after {
-  content: '';
-  flex: 0 0 100%;
-  border-bottom: 1px solid #000;
+.textWithHoriLine .line {
+    background-color: #000;
+    width: 20%;
+    height: 1%;
+    position: relative;
+    top: 0.75em;
 }
 
-.separator:not(:empty)::before {
-  margin-right: .25em;
+.textWithHoriLine .text {
+    margin: 0 3%;
 }
-
-.separator:not(:empty)::after {
-  margin-left: .25em;
-} */
 
 .signUpIconContainer {
     width: 100%;
