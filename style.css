@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://img.icons8.com/?size=20&id=eBEo6FOQZ3v4&format=png&color=000000');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 0 0 15%;
+  border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
