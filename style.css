@@ -22,7 +22,7 @@ body {
 }
 
 .signMenu {
-    background-color: rgb(34, 121, 58,0.20);
+    background-image: linear-gradient(to right, rgba(34, 121, 58, 0.2) , rgba(106, 208, 128, 0.2), rgba(34, 121, 58, 0.2));
     border-top-left-radius: 40px 15px;
     border-top-right-radius: 40px 15px;
     padding-top: 5%;
@@ -83,6 +83,7 @@ input[type=password] {
     margin: 7% 0;
     border: none;
     background-image: linear-gradient(to right, #22793A , #62CE80);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 8px 10px 0 rgba(0, 0, 0, 0.19);
     color: white;
     font-size: large;
 }

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuIcon {
+    align-self: flex-start;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.icon {
+    width: 1.1rem;
+    height: 0.1rem;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.heading {
+    background-image: linear-gradient(to right, rgba(152, 152, 152, 0.4) , rgba(137, 137, 137, 0.1));
+    border-radius: 12.5px;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem 0;
+}
+
+.heading h1 {
+    font-size: larger;
+    font-weight: bold;
+    color: #3C3C3C;
+}
+
+.content {
+    background-image: linear-gradient(to right, rgba(152, 152, 152, 0.2) , rgba(137, 137, 137, 0.01));
+    margin: 0 5%;
+    margin-bottom: 1.5rem;
+    border-radius: 15px;
+    border: 1px solid #A4A4A4;
+    padding: 1.25rem 0.9rem;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+.content ul {
+    padding-left: 1.25rem;
+}
+
+.headingContent {
+    background-image: linear-gradient(to right, rgba(34, 121, 58, 0.2) , rgba(106, 208, 128, 0.2), rgba(34, 121, 58, 0.2));
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+    width: fit-content;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 8px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.editBtn {
+    width: 80%;
+    padding: 2% 2.5%;
+    margin-bottom: 2rem;
+    border-radius: 7.5px;
+    border: none;
+    background-color: #181717;
+    color: white;
+    font-size: medium;
+}
