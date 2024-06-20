@@ -9,8 +9,11 @@
 
 body {
     height: 100dvh;
+    max-height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 3%;
 }
 
@@ -18,7 +21,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 30%;
+    max-width: 300px;
 }
 
 .signMenu {
@@ -30,6 +34,8 @@ body {
     flex-direction: column;
     align-items: center;
     flex: 1 1 auto;
+    max-width: 768px;
+    width: 100%;
 }
 
 .signMenu h1 {
@@ -60,7 +66,7 @@ input {
     background-color: transparent;
     background-position: 3% 50%; 
     background-repeat: no-repeat;
-    padding: 10px 10px 10px 45px;
+    padding: 2% 2% 2% 45px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
@@ -121,4 +127,9 @@ input[type=password] {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, rgba(152, 152, 152, 0.2) , rgba(137, 137, 137, 0.01));
+}
+
+.signUpIconContainer .imageContainer img {
+    width: 2em;
+    height: 2em;
 }
