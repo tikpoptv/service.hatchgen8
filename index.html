@@ -7,22 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="Images/Logo.svg" alt="Logo">
+    <img class="logo" src="Images/Logo.svg" alt="Logo">
     <div class="signMenu">
         <h1>Get Started Free</h1>
-        <form action="">
-            <label for="email">Email Address</label><br>
+        <form class="form" action="">
+            <label for="email">Email Address</label>
             <input type="email" placeholder="yourname@gmail.com">
-            <label for="text">Your Name</label><br>
+            <label for="text">Your Name</label>
             <input type="text" placeholder="@yourname">
-            <label for="password">Password</label><br>
-            <input type="password" placeholder="****">
+            <label for="password">Password</label>
+            <input type="password" placeholder="********">
         </form>
-        <button>Sign up</button>
-        <div class="separator">Next section</div>
-        <button><img src="Images/Google.svg" alt="Google"></button>
-        <button><img src="Images/Apple.svg" alt="Apple"></button>
-        <button><img src="Images/Facebook.svg" alt="Facebook"></button>
+        <button class="signupBtn">Sign up</button>
+        <div class="separator">Or sign up with</div>
+        <div class="signUpIconContainer">
+            <div class="imageContainer">
+                <img src="Images/Google.svg" alt="Google">
+            </div>
+            <div class="imageContainer">
+                <img src="https://img.icons8.com/?size=25&id=30840&format=png&color=000000" alt="Apple">
+            </div>
+            <div class="imageContainer">
+                <img src="https://img.icons8.com/?size=25&id=uLWV5A9vXIPu&format=png&color=000000" alt="Facebook">
+            </div>
+        </div>
     </div>
 </body>
 </html>

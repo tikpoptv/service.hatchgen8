@@ -1,22 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.signMenu {
+    background-color: rgb(34, 121, 58,0.20);
+    border-top-left-radius: 40px 15px;
+    border-top-right-radius: 40px 15px;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.signMenu h1 {
+    margin-bottom: 7%;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+label {
+    font-size: small;
+    font-weight: 500;
+    align-self: flex-start;
+    padding-left: 10%;
+    margin-top: 3%;
 }
 
 input {
-    width: 100%;
-    border: 2px solid #ccc;
-    border-radius: 4px;
+    width: 80%;
+    border: 0.01em solid rgba(255, 255, 255, 0.171);
+    border-radius: 7px;
     font-size: 16px;
-    background-color: white;
-    background-image: url('https://img.icons8.com/?size=20&id=eBEo6FOQZ3v4&format=png&color=000000');
-    background-position: 10px 10px; 
+    background-color: transparent;
+    background-position: 3% 50%; 
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 10px 10px 10px 45px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-.separator {
+input[type=email] {
+    background-image: url('https://img.icons8.com/?size=20&id=eBEo6FOQZ3v4&format=png&color=000000');
+}
+
+input[type=text] {
+    background-image: url('https://img.icons8.com/?size=20&id=111473&format=png&color=000000');
+}
+
+input[type=password] {
+    background-image: url('https://img.icons8.com/?size=20&id=102158&format=png&color=000000');
+}
+
+.signupBtn {
+    width: 80%;
+    padding: 3% 2.5%;
+    border-radius: 10px;
+    margin: 7% 0;
+    border: none;
+    background-image: linear-gradient(to right, #22793A , #62CE80);
+    color: white;
+    font-size: large;
+}
+
+/* .separator {
   display: flex;
   align-items: center;
   text-align: center;
@@ -25,7 +96,7 @@ input {
 .separator::before,
 .separator::after {
   content: '';
-  flex: 0 0 15%;
+  flex: 0 0 100%;
   border-bottom: 1px solid #000;
 }
 
@@ -35,4 +106,21 @@ input {
 
 .separator:not(:empty)::after {
   margin-left: .25em;
+} */
+
+.signUpIconContainer {
+    width: 100%;
+    margin: 7% 0;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+.signUpIconContainer .imageContainer {
+    width:10%;
+    padding: 4% 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(152, 152, 152, 0.2) , rgba(137, 137, 137, 0.01));
 }
