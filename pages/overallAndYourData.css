@@ -179,6 +179,7 @@ nav div img:last-child {
     height: 80dvh;
     width: 70%;
     max-width: 320px;
+    max-height: 540px;
     top: 0;
     left: 0;
     position: fixed;
