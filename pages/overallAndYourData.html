@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="menuIcon">
-            <div>
+            <div onclick="openMenu()">
                 <div class="icon"></div>
                 <div class="icon"></div>
                 <div class="icon"></div>
@@ -65,12 +65,58 @@
             <img src="../Images/person 2.svg" alt="person">
         </nav>
     </div>
+
+    <div class="hiddenMenu">
+        <img onclick="closeMenu()" class="x" src="../Images/X.svg" alt="X">
+        <h2 style="margin-left: 1.5rem; color: white; font-weight: 500;">Good morning</h2>
+        <button class="editProBtn">Edit Profile</button>
+        <div style="width: 80%; margin: 1.5rem auto 0 auto;">
+          <hr>
+        </div>
+        <div class="menuContent">
+          <div>
+            <img src="../Images/house-fill 2 (1).svg" alt="">
+            <p>Company Info</p>
+          </div>
+          <div>
+            <img src="../Images/leaf.svg" alt="">
+            <p>Overall and your data</p>
+          </div>
+          <div>
+            <img src="../Images/grid.svg" alt="">
+            <p>Scope calculation</p>
+          </div>
+          <div>
+            <img src="../Images/person 4.svg" alt="">
+            <p>Your account</p>
+          </div>
+          <div>
+            <img src="../Images/setting.svg" alt="">
+            <p>Settings</p>
+          </div>
+          <div>
+            <img src="../Images/Information Square.svg" alt="">
+            <p>Help</p>
+          </div>
+        </div>
+        <div class="logout">
+          <img src="../Images/Off.svg" alt="">
+          log out
+        </div>
+      </div>
+
     <script>
         function CompanyInfoPage() {
             window.location.href = "companyInfo.html";
         }
         function ScopeCalculationPage() {
             window.location.href = "scopeCalculation.html";
+        }
+        function closeMenu() {
+          document.getElementsByClassName('hiddenMenu')[0].style.display = "none";
+        }
+        function openMenu() {
+          document.getElementsByClassName('hiddenMenu')[0].style.display = "block";
         }
     </script>
 </body>
