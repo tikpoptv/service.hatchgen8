@@ -86,7 +86,7 @@ input[type=password] {
     width: 80%;
     padding: 3% 2.5%;
     border-radius: 10px;
-    margin: 7% 0;
+    margin: 3% 0;
     border: none;
     background-image: linear-gradient(to right, #22793A , #62CE80);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 8px 10px 0 rgba(0, 0, 0, 0.19);
@@ -140,3 +140,11 @@ input[type=password] {
     width: 2em;
     height: 2em;
 }
+
+.Demo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 7%;
+    color: RED;}
