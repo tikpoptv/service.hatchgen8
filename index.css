@@ -147,4 +147,6 @@ input[type=password] {
     justify-content: center;
     gap: 3%;
     margin-top: 7%;
-    color: RED;}
+    color: RED;
+    text-align: center;
+}
