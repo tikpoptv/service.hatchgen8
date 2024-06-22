@@ -93,10 +93,11 @@
 
 .textNGraph ul li {
     width: 100%;
+    font-size: 11px;
 }
 
 li {
-    margin-left: 2%;
+    margin-left: 10%;
 }
 
 .textNGraph ul li:first-child::marker {
@@ -220,6 +221,12 @@ nav div img:last-child {
     gap: 0.75rem;
 }
 
+.menuContent div a{
+    color: white;
+    text-decoration: none;
+}
+
+
 .logout {
     margin-left: 1.5rem;
     margin-top: 4.5rem;
@@ -227,4 +234,9 @@ nav div img:last-child {
     font-size: small;
     display: flex;
     gap: 0.75rem;
+}
+
+.logout a {
+    color: white;
+    text-decoration: none;
 }
